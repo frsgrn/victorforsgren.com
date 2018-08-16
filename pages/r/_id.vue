@@ -24,7 +24,7 @@ export default {
   methods: {
     async loadPost(id) {
       try {
-        let post = await axios.get("/posts/" + id + ".md")
+        let post = await axios.get("https://files.voze.co/posts/" + id + ".md")
         this.post = marked(post.data)
       } catch(e) {
         this.post = marked("# 404, post not found")
