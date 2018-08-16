@@ -4,9 +4,8 @@
         <li><nuxt-link to="/r/om">om</nuxt-link></li>
         <li><nuxt-link to="/r/lista">läs</nuxt-link></li>
         <li><a>-</a></li>
-        <li><a href="https://github.com/voze">github</a></li>
         <li><a href="https://files.voze.co">files</a></li>
-        <li><a href="https://github.com/voze/voze-co">repository</a></li>
+        <li><a href="https://github.com/voze">github</a></li>
     </ul>
 </template>
 
