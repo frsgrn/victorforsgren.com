@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    <div class="post" v-html="post" v-cloak></div>
+    <div class="post" v-html="post.content" v-cloak></div>
   </section>
 </template>
 
@@ -15,7 +15,10 @@ export default {
   },
   data() {
     return {
-      post:null
+      post: {
+        title: "",
+        content: ""
+      }
     }
   },
   beforeMount() {
@@ -25,10 +28,17 @@ export default {
     async loadPost(id) {
       try {
         let post = await axios.get("https://files.voze.co/posts/" + id + ".md")
-        this.post = marked(post.data)
+        document.title = post.data.split('\n')[0]
+        this.post.title = post.data.split('\n')[0]
+        this.post.content = marked(post.data)
       } catch(e) {
         this.post = marked("# 404, post not found")
       }
+    }
+  },
+  head() {
+    return {
+      title: this.post.title
     }
   }
 }
