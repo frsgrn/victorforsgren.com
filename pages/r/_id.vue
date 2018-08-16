@@ -41,6 +41,7 @@ export default {
     margin-right: auto;
     max-width: 740px;
     padding: 10px;
+    margin-bottom: 20px;
   }
   p {
     font-size: 18px;
