@@ -67,6 +67,10 @@ h3 {
   font-size: 25px;
 }
 
+p {
+  font-size: 18px;
+}
+
 blockquote {
   border-left: lightskyblue 2px solid;
   padding-left: 10px;

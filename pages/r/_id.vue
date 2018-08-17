@@ -46,9 +46,6 @@ export default {
 </script>
 
 <style>
-  p {
-    font-size: 18px;
-  }
   a {
     font-size: 18px;
     text-decoration: none;
