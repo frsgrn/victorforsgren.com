@@ -3,7 +3,7 @@
     <div class="links">
         <li><nuxt-link to="/">Hem</nuxt-link></li>
         <li><nuxt-link to="/r/om">om</nuxt-link></li>
-        <li><nuxt-link to="/r/lista">läs</nuxt-link></li>
+        <li><nuxt-link to="/r/lista">läslista</nuxt-link></li>
     </div>
   </ul>
 </template>
@@ -28,7 +28,6 @@ li a {
   text-decoration: none;
   font-size: 20px;
   color: rgb(51, 51, 51);
-  font-family: 'GothamRounded-Bold', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 li a:hover {
@@ -48,7 +47,6 @@ li a:hover {
   bottom: 0px;
   padding: 0px;
   width: 100%;
-  padding-left: 15px;
   background-color: rgb(247, 247, 247);
 }
 

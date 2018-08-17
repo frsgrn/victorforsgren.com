@@ -17,6 +17,7 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=PT+Serif");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif");
 
 @font-face {
   font-family: 'Adam.cg';
@@ -45,6 +46,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
   margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  color:rgba(0, 0, 0, 0.84);
 }
 
 img {
@@ -52,15 +56,21 @@ img {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 40px;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 h3 {
-  font-size: 21px;
+  font-size: 25px;
+}
+
+blockquote {
+  border-left: lightskyblue 2px solid;
+  padding-left: 10px;
+  margin-left: 20px;
 }
 
 .container {

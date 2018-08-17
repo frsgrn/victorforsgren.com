@@ -32,7 +32,8 @@ export default {
         this.post.title = post.data.split('\n')[0]
         this.post.content = marked(post.data)
       } catch(e) {
-        this.post = marked("# 404, post not found")
+        this.post.title = ":("
+        this.post.content = marked("# 404, inlägget hittades inte")
       }
     }
   },
