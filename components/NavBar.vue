@@ -1,9 +1,11 @@
 <template>
   <ul class="navbar">
+    <div class="links">
         <li><nuxt-link to="/">Hem</nuxt-link></li>
         <li><nuxt-link to="/r/om">om</nuxt-link></li>
         <li><nuxt-link to="/r/lista">läs</nuxt-link></li>
-    </ul>
+    </div>
+  </ul>
 </template>
 
 <style scoped>
@@ -15,30 +17,40 @@ ul {
 }
 
 li {
-  float: left;
+  display: inline-block;
 }
 
 li a {
   display: block;
   text-align: center;
-  padding: 8px;
+  padding: 12px;
   border-bottom: none;
   text-decoration: none;
-  color: rgb(70, 70, 70);
-  font-family: 'GothamRounded-Medium', sans-serif;
+  font-size: 20px;
+  color: rgb(51, 51, 51);
+  font-family: 'GothamRounded-Bold', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 li a:hover {
-  color: rgb(150, 59, 59);
+  color: gray;
+}
+
+.links {
+  max-width: 750px;
+  text-align: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navbar{
   position: fixed;
   bottom: 0px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 0px;
   width: 100%;
-  background-color: rgb(243, 243, 243);
+  padding-left: 15px;
+  background-color: rgb(247, 247, 247);
 }
+
 </style>
 

@@ -26,6 +26,10 @@ export default {
   font-family: 'GothamRounded-Medium';
   src: url('../static/fonts/gotham/GothamRounded-Medium.otf');
 }
+@font-face {
+  font-family: 'GothamRounded-Bold';
+  src: url('../static/fonts/gotham/GothamRounded-Bold.otf');
+}
 
 html, body {
   padding: 0px;
@@ -60,8 +64,13 @@ h3 {
 }
 
 .container {
-  padding: 10px;
+  padding: 15px;
   margin: 0px;
+  display: block;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
 }
 
 [v-cloak] { display: none; }

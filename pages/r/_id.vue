@@ -45,18 +45,11 @@ export default {
 </script>
 
 <style>
-  .post {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 740px;
-    padding: 10px;
-    margin-bottom: 20px;
-  }
   p {
     font-size: 18px;
   }
   a {
+    font-size: 18px;
     text-decoration: none;
     border-bottom: 2px solid rgb(0, 184, 0);
   }
