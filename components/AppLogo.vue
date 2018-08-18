@@ -9,6 +9,7 @@
   text-shadow: 0px 6px 0px rgba(0,0,0,0.15);
   font-family: 'Adam.cg';
   font-weight: 900;
+  padding-top: 10px;
 }
 </style>
 
