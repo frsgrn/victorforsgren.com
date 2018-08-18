@@ -6,9 +6,9 @@
 .logo {
   font-size: 4em;
   color: #212121;
-  text-shadow: 3px 3px 0px white, 6px 6px 0px rgba(0,0,0,0.15);
-  margin: 20px;
+  text-shadow: 0px 6px 0px rgba(0,0,0,0.15);
   font-family: 'Adam.cg';
+  font-weight: 900;
 }
 </style>
 

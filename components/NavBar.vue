@@ -1,21 +1,14 @@
 <template>
-  <ul class="navbar">
-    <div class="links">
-        <li><nuxt-link to="/">Hem</nuxt-link></li>
-        <li><nuxt-link to="/r/om">om</nuxt-link></li>
-        <li><nuxt-link to="/r/lista">läslista</nuxt-link></li>
-    </div>
-  </ul>
+  <div class="navbar">
+    <ul class="links">
+          <li><nuxt-link to="/">Hem</nuxt-link></li>
+          <li><nuxt-link to="/r/om">om</nuxt-link></li>
+          <li><nuxt-link to="/r/lista">läslista</nuxt-link></li>
+    </ul>  
+  </div>
 </template>
 
 <style scoped>
-ul {
-  list-style-type: none;
-  display: inline;
-  margin: 0;
-  padding: 15px;
-}
-
 li {
   display: inline-block;
 }
@@ -27,27 +20,29 @@ li a {
   border-bottom: none;
   text-decoration: none;
   font-size: 20px;
-  color: rgb(51, 51, 51);
+  color: rgb(50, 54, 72);
+  font-family: 'Tiempos-headline-semibold', 'Times New Roman', Times, serif;
+  font-weight: 700;
 }
 
 li a:hover {
-  color: gray;
+  color: rgb(28, 31, 44);
 }
 
 .links {
-  max-width: 750px;
-  text-align: left;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  height: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 20px;
+  text-align: center;
 }
 
 .navbar{
   position: fixed;
   bottom: 0px;
-  padding: 0px;
   width: 100%;
   background-color: rgb(247, 247, 247);
+  text-align: center;
 }
 
 </style>

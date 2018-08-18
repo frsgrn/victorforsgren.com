@@ -1,21 +1,21 @@
 <template>
     <div>
-    <nav-bar></nav-bar>
+    <navbar></navbar>
         <div class="container">
-            <h1 v-if="error.statusCode === 404">Page not found</h1>
-            <h1 v-else>An error occurred</h1>
-            <nuxt-link to="/">Home page</nuxt-link>
+            <h1 v-if="error.statusCode === 404">Kunde inte hitta sidan :(</h1>
+            <h1 v-else>Ett fel inträffade :(</h1>
+            <nuxt-link to="/">Hem</nuxt-link>
         </div>
     </div>
 </template>
 
 <script>
-import NavBar from "~/components/NavBar.vue";
+import Navbar from "~/components/Navbar.vue";
 
 export default {
     props: ['error'],
     components: {
-        NavBar
+        Navbar
     }
 };
 </script>
