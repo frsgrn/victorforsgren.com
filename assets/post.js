@@ -8,7 +8,7 @@ async function getPost(postId) {
         return {
             meta: ((md.meta) ? md.meta : {}),
             content: md.html,
-            md
+            md: md.markdown
         }
     } catch(e) {
         return null

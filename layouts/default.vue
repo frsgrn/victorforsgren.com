@@ -89,7 +89,7 @@ blockquote {
 }
 
 .container {
-  padding: 0 8vw;
+  padding: 10px 8vw;
   margin: 0px;
   display: block;
   margin-bottom: 60px;
