@@ -1,11 +1,11 @@
 FROM node:8
 
-WORKDIR /usr/src/app
-COPY package*.json ./
+WORKDIR /usr/app
+COPY package.json .
 
 RUN npm install --only=production
 COPY . .
 RUN npm run build
 
-EXPOSE 1234
+EXPOSE 80
 CMD [ "npm", "start" ]
