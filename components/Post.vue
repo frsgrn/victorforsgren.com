@@ -1,5 +1,8 @@
 <template>
-    <div class="post" v-html="post.content" v-cloak></div>
+    <div>
+        <h1>{{ post.meta.title }}</h1>
+        <div class="post" v-html="post.content" v-cloak></div>
+    </div>
 </template>
 
 <style>
