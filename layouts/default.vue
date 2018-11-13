@@ -11,6 +11,11 @@ import Navbar from '~/components/Navbar.vue'
 export default {
   components: {
     Navbar
+  },
+  head() {
+    return {
+      title: "voze-co"
+    }
   }
 }
 </script>
@@ -57,7 +62,7 @@ img {
 
 h1 {
   font-size: 40px;
-  font-family: 'Tiempos-headline-bold';
+  font-family: 'Tiempos-headline-bold', 'Times New Roman', Times, serif;
 }
 
 h2 {
@@ -72,15 +77,15 @@ p {
   font-size: 18px;
 }
 
-  a {
-    font-size: 18px;
-    text-decoration: none;
-    border-bottom: 2px solid rgb(0, 184, 0);
-  }
-  a {color:rgb(12, 12, 12);}      /* unvisited link */
-  a:visited {color:rgb(12, 12, 12);}  /* visited link */
-  a:hover {color:rgb(12, 12, 12);}  /* mouse over link */
-  a:active {color:rgb(12, 12, 12);}
+a {
+  font-size: 18px;
+  text-decoration: none;
+  border-bottom: 2px solid #3498db;
+  color:rgb(12, 12, 12);
+}
+a:visited {border-bottom: 2px solid #2980b9;}
+a:hover {color:rgb(12, 12, 12);}
+a:active {color:rgb(12, 12, 12);}
 
 blockquote {
   border-left: lightskyblue 2px solid;

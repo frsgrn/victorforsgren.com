@@ -10,11 +10,6 @@ import AppLogo from '~/components/AppLogo.vue'
 export default {
   components: {
     AppLogo
-  },
-  head() {
-    return {
-      title: "Voze co"
-    }
   }
 }
 </script>

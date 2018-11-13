@@ -1,10 +1,8 @@
 # Voze co
-## Build and run
-
-``` bash
-# build with docker
-$ docker-compose build
-
-# run with docker
-$ docker-compose up
+## Writing an article
+```markdown
+---
+title: My amazing article
+---
+## Second header, the big header will be auto populated
 ```

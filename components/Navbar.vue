@@ -1,9 +1,8 @@
 <template>
   <div class="navbar">
     <ul class="links">
-          <li><nuxt-link to="/">Hem</nuxt-link></li>
-          <li><nuxt-link to="/r/om">om</nuxt-link></li>
-          <li><nuxt-link to="/r/lista">läslista</nuxt-link></li>
+          <li><nuxt-link to="/">voze-co</nuxt-link></li>
+          <li><nuxt-link to="/r/list">läslista</nuxt-link></li>
     </ul>  
   </div>
 </template>
@@ -29,7 +28,7 @@ li a:hover {
   color: rgb(28, 31, 44);
 }
 
-.links {
+.navbar .links {
   height: auto;
   list-style-type: none;
   margin: 0;
