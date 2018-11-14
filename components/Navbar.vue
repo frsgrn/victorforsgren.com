@@ -18,9 +18,9 @@ li a {
   padding: 12px;
   border-bottom: none;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 21px;
   color: rgb(50, 54, 72);
-  font-family: 'Tiempos-headline-semibold', 'Times New Roman', Times, serif;
+  font-family: "PT Serif";
   font-weight: 700;
 }
 

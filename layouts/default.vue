@@ -22,19 +22,13 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=PT+Serif");
-@import url("https://fonts.googleapis.com/css?family=Noto+Serif");
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
 
 @font-face {
   font-family: 'Adam.cg';
   src: url('../static/fonts/ADAM.CG.otf');
-}
-@font-face {
-  font-family: 'Tiempos-headline-bold';
-  src: url('../static/fonts/tiempos/tiempos-headline-bold.woff2');
-}
-@font-face {
-  font-family: 'Tiempos-headline-semibold';
-  src: url('../static/fonts/tiempos/tiempos-headline-semibold.woff2');
 }
 
 html, body {
@@ -51,8 +45,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: 'Tiempos-headline-semibold', 'Times New Roman', Times, serif;
-  font-weight: 500;
+  font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+  font-weight: 900;
   color:rgb(50, 54, 72);
 }
 
@@ -62,7 +56,6 @@ img {
 
 h1 {
   font-size: 40px;
-  font-family: 'Tiempos-headline-bold', 'Times New Roman', Times, serif;
 }
 
 h2 {

@@ -1,12 +1,12 @@
 <template>
-    <div>
+    <div class="postView">
         <h1>{{ post.meta.title }}</h1>
-        <div class="postView" v-html="post.content" v-cloak></div>
+        <div v-html="post.content" v-cloak></div>
     </div>
 </template>
 
 <style>
-    .post {
+    .postView {
         width: 100%;
     }
 </style>
