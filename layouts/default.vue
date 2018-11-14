@@ -39,7 +39,7 @@ html, body {
 
 body {
   color: rgba(0,0,0,.84);
-  font-family: 'PT Serif', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -52,6 +52,8 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
   max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h1 {
