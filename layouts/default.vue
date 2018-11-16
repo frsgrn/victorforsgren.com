@@ -26,6 +26,8 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:700,900');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,900');
 
+@import url('https://fonts.googleapis.com/css?family=Ovo');
+
 @font-face {
   font-family: 'Adam.cg';
   src: url('../static/fonts/ADAM.CG.otf');
@@ -45,7 +47,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+  font-family: 'PT Serif', 'Times New Roman', Times, serif;
   font-weight: 900;
   color:rgb(50, 54, 72);
 }
@@ -58,6 +60,7 @@ img {
 
 h1 {
   font-size: 40px;
+  font-family: 'Playfair Display', Times, serif !important;
 }
 
 h2 {
