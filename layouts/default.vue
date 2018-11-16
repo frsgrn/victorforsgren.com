@@ -60,7 +60,7 @@ img {
 
 h1 {
   font-size: 40px;
-  font-family: 'Playfair Display', Times, serif !important;
+  font-family: 'Playfair Display', Times, serif;
 }
 
 h2 {
