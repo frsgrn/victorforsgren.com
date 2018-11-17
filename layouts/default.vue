@@ -81,7 +81,7 @@ a {
   border-bottom: 2px solid #3498db;
   color:rgb(12, 12, 12);
 }
-a:visited {border-bottom: 2px solid #2980b9;}
+a:visited {border-bottom: 2px solid #3498db;}
 a:hover {color:rgb(12, 12, 12);}
 a:active {color:rgb(12, 12, 12);}
 
