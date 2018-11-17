@@ -21,12 +21,22 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css?family=PT+Serif");
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700,900');
-@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
 
-@import url('https://fonts.googleapis.com/css?family=Ovo');
+@font-face {
+font-family: 'Tiempos Headline Semibold';
+font-style: normal;
+font-weight: normal;
+src: url('../static/fonts/tiempos-headline/TiemposHeadline-Semibold.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Tiempos Headline Bold';
+font-style: normal;
+font-weight: normal;
+src: url('../static/fonts/tiempos-headline/TiemposHeadline-Bold.woff') format('woff');
+}
+
 
 @font-face {
   font-family: 'Adam.cg';
@@ -47,7 +57,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: 'PT Serif', 'Times New Roman', Times, serif;
+  font-family: 'Tiempos Headline SemiBold', 'Times New Roman', Times, serif;
   font-weight: 900;
   color:rgb(50, 54, 72);
 }
@@ -59,8 +69,8 @@ img {
 }
 
 h1 {
-  font-size: 40px;
-  font-family: 'Playfair Display', Times, serif;
+  font-size: 38px;
+  font-family: 'Tiempos Headline Bold', Times, serif;
 }
 
 h2 {

@@ -12,20 +12,22 @@ li {
   display: inline-block;
 }
 
-li a {
+.navbar li a {
   display: block;
   text-align: center;
-  padding: 12px;
-  border-bottom: none;
+  margin: 9px;
   text-decoration: none;
-  font-size: 21px;
+  padding: 3px;
+  font-size: 20px;
+  border-color: rgba(0,0,0,0);
   color: rgb(50, 54, 72);
-  font-family: "PT Serif";
-  font-weight: 700;
+  font-family: "Tiempos Headline Bold";
+  transition: border-color 0.3s ease-in-out;
 }
 
-li a:hover {
-  color: rgb(28, 31, 44);
+.navbar li a:hover {
+  border-bottom: 2px solid #3498db;
+  margin-bottom: -1px;
 }
 
 .navbar .links {
