@@ -22,20 +22,9 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700');
+@import url('https://fonts.googleapis.com/css?family=Tinos:400,700');
 
-@font-face {
-font-family: 'Tiempos Headline Semibold';
-font-style: normal;
-font-weight: normal;
-src: url('https://s3.eu-central-1.amazonaws.com/www.voze.co/fonts/tiempos-headline/TiemposHeadline-Semibold.woff') format('woff');
-}
-
-@font-face {
-font-family: 'Tiempos Headline Bold';
-font-style: normal;
-font-weight: normal;
-src: url('https://s3.eu-central-1.amazonaws.com/www.voze.co/fonts/tiempos-headline/TiemposHeadline-Bold.woff') format('woff');
-}
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:600,700');
 
 
 @font-face {
@@ -57,8 +46,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: 'Tiempos Headline SemiBold', 'Times New Roman', Times, serif;
-  font-weight: 900;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
   color:rgb(50, 54, 72);
 }
 
@@ -70,7 +59,8 @@ img {
 
 h1 {
   font-size: 38px;
-  font-family: 'Tiempos Headline Bold', Times, serif;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 700;
 }
 
 h2 {

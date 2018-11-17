@@ -21,7 +21,7 @@ li {
   font-size: 20px;
   border-color: rgba(0,0,0,0);
   color: rgb(50, 54, 72);
-  font-family: "Tiempos Headline Bold";
+  font-family: "Tinos", serif;
   transition: border-color 0.3s ease-in-out;
 }
 
