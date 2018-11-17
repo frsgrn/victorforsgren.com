@@ -27,20 +27,20 @@ export default {
 font-family: 'Tiempos Headline Semibold';
 font-style: normal;
 font-weight: normal;
-src: url('../static/fonts/tiempos-headline/TiemposHeadline-Semibold.woff') format('woff');
+src: url('https://s3.eu-central-1.amazonaws.com/www.voze.co/fonts/tiempos-headline/TiemposHeadline-Semibold.woff') format('woff');
 }
 
 @font-face {
 font-family: 'Tiempos Headline Bold';
 font-style: normal;
 font-weight: normal;
-src: url('../static/fonts/tiempos-headline/TiemposHeadline-Bold.woff') format('woff');
+src: url('https://s3.eu-central-1.amazonaws.com/www.voze.co/fonts/tiempos-headline/TiemposHeadline-Bold.woff') format('woff');
 }
 
 
 @font-face {
   font-family: 'Adam.cg';
-  src: url('../static/fonts/ADAM.CG.otf');
+  src: url('https://s3.eu-central-1.amazonaws.com/www.voze.co/fonts/ADAM.CG.otf');
 }
 
 html, body {
