@@ -11,11 +11,6 @@ import Navbar from '~/components/Navbar.vue'
 export default {
   components: {
     Navbar
-  },
-  head() {
-    return {
-      title: "voze-co"
-    }
   }
 }
 </script>
@@ -25,12 +20,6 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Tinos:400,700');
 
 @import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:600,700');
-
-
-@font-face {
-  font-family: 'Adam.cg';
-  src: url('https://s3.eu-central-1.amazonaws.com/www.voze.co/fonts/ADAM.CG.otf');
-}
 
 html, body {
   padding: 0px;

@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
     <ul class="links">
-          <li><nuxt-link to="/">voze-co</nuxt-link></li>
+          <li><nuxt-link to="/">victorforsgren</nuxt-link></li>
           <li><nuxt-link to="/r/list">läslista</nuxt-link></li>
     </ul>  
   </div>
