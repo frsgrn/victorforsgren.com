@@ -90,5 +90,13 @@ blockquote {
   max-width: 750px;
 }
 
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 [v-cloak] { display: none; }
 </style>
