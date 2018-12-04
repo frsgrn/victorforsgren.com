@@ -27,9 +27,28 @@ html, body {
   background-color: white;
 }
 
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 body {
   color: rgba(0,0,0,.84);
   font-family: 'PT Serif', serif;
+  animation: fadein .2s;
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity 0.2s;
+}
+
+.page-enter, .page-leave-active {
+  opacity: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
