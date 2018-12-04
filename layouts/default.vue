@@ -40,11 +40,11 @@ html, body {
 body {
   color: rgba(0,0,0,.84);
   font-family: 'PT Serif', serif;
-  animation: fadein .2s;
+  animation: fadein .15s ease-in-out;
 }
 
 .page-enter-active, .page-leave-active {
-  transition: opacity 0.2s;
+  transition: opacity 0.15s ease-in-out;
 }
 
 .page-enter, .page-leave-active {
