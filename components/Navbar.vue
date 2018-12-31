@@ -1,8 +1,8 @@
 <template>
   <div class="navbar">
     <ul class="links">
-          <li><nuxt-link to="/">🏠</nuxt-link></li>
-          <li><nuxt-link to="/r/list">📚</nuxt-link></li>
+          <li><nuxt-link to="/">Hem</nuxt-link></li>
+          <li><nuxt-link to="/r/list">Läslista</nuxt-link></li>
     </ul>  
   </div>
 </template>
