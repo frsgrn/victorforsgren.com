@@ -2,6 +2,12 @@ module.exports = {
   /*
   ** Headers of the page
   */
+  modules: [
+    ['@nuxtjs/dotenv', '@nuxtjs/google-analytics']
+  ],
+  'google-analytics': {
+    id: process.env.ANALYTICS_ID
+  },
   head: {
     title: 'Victor Forsgren',
     meta: [
@@ -25,7 +31,7 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
-    extend (config, { isDev, isClient }) {
+    extend(config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',
