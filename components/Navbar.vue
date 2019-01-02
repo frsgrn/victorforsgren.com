@@ -2,7 +2,7 @@
   <div class="navbar">
     <ul class="links">
           <li><nuxt-link to="/">Home</nuxt-link></li>
-          <li><nuxt-link to="/r/list">Reading list</nuxt-link></li>
+          <li><nuxt-link to="/r/index">Index</nuxt-link></li>
     </ul>  
   </div>
 </template>
