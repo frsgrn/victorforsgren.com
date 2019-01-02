@@ -19,7 +19,7 @@ export default {
   },
   async asyncData({params, error}) {
     let post = await getPost(params.id)
-    if (!post) return error({statusCode: 404, message: "Inlägget hittades inte"});
+    if (!post) return error({statusCode: 404, message: "Post not found"});
     return {post}
   }
 }

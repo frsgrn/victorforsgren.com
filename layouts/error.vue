@@ -3,9 +3,9 @@
     <navbar></navbar>
         <div class="container">
             <h1>Felkod {{error.statusCode}}</h1>
-            <h2 v-if="error.statusCode == 404">"Sidan hittades inte"</h2>
+            <h2 v-if="error.statusCode == 404">"Page not found"</h2>
             <h2 v-else>"{{error.message}}"</h2>
-            <p>Nu är du ute och cyklar, <nuxt-link to="/">tryck här</nuxt-link> för att komma hem igen.</p>
+            <p>You're lost, <nuxt-link to="/">click here</nuxt-link> to return home.</p>
         </div>
     </div>
 </template>
