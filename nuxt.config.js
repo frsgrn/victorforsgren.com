@@ -2,9 +2,7 @@ module.exports = {
   /*
   ** Headers of the page
   */
-  modules: [
-    ['@nuxtjs/dotenv', '@nuxtjs/google-analytics']
-  ],
+  modules: ['@nuxtjs/dotenv', '@nuxtjs/google-analytics'],
   'google-analytics': {
     id: process.env.ANALYTICS_ID
   },
