@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <post-view v-bind:post="post"></post-view>
+    <adsbygoogle/>
   </section>
 </template>
 

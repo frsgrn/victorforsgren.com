@@ -2,7 +2,11 @@ module.exports = {
   /*
   ** Headers of the page
   */
-  modules: ['@nuxtjs/dotenv', ['@nuxtjs/google-analytics', { id: process.env.ANALYTICS_ID }]],
+  modules: [
+    '@nuxtjs/dotenv',
+    ['@nuxtjs/google-analytics', { id: process.env.ANALYTICS_ID }],
+    ['@nuxtjs/google-adsense', { id: process.env.CA_PUB }]
+  ],
   head: {
     title: 'Victor Forsgren',
     meta: [
